@@ -22,7 +22,7 @@ $ca->initPage();
 // These can then be referenced using {$variablename} in the template.
 
 //$ca->assign('variablename', $value);
-$ca->assign('pagetype', clouder);
+//$ca->assign('pagetype', clouder);
 
 // Check login status
 if ($ca->isLoggedIn()) {
